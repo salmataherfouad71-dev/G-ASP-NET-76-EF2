@@ -12,7 +12,9 @@ namespace Assignment._17.Models
         public string Title { get; set; }
         public string Description { get; set; }
         public DateTime StartDate { get; set; }
-        public DateTime EndDate { get; set; }
+        public DateTime? EndDate { get; set; }
         public int MaxAttendeesNumber { get; set; }
+        public int OrganizerId { get; set; }
+        public List<Organizer> Organizers { get; set; }
     }
 }

@@ -17,7 +17,7 @@ namespace Assignment._17.Configuration
             builder.Property(E => E.Title).HasColumnType("Varchar(50)");
             builder.Property(E => E.Description).HasColumnType("Varchar(200)");
             builder.Property(E => E.StartDate).HasDefaultValueSql("GETDATE()");
-            builder.Property(E => E.EndDate).IsRequired(false);
+            //builder.Property(E => E.EndDate).IsRequired(false);
         }
     }
 }

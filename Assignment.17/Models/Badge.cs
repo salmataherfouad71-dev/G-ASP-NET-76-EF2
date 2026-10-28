@@ -11,5 +11,7 @@ namespace Assignment._17.Models
         public int Id { get; set; }
         public DateTime IssuedDate { get; set; }
         public BadgeTier Tire {  get; set; }
+        public int AttendeeId { get; set; }
+        public Attendee Attendee { get; set; }
     }
 }

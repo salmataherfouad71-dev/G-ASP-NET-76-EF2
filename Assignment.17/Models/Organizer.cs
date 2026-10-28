@@ -18,5 +18,8 @@ namespace Assignment._17.Models
         [MaxLength(150)]
         public string? companyName { set; get; }
         public bool Isverified { set; get;  }
+        public int OrganizerProfileId { set; get; }
+        public OrganizerProfile OrganizerProfile { set; get; }
+        public Event Event { set; get; }
     }
 }

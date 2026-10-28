@@ -12,5 +12,6 @@ namespace Assignment._17.Models
         public string Biography { set; get; }
         public string WebsiteLink { set; get; }
         public string LogoLink {  set; get; }
+        public Organizer Organizer { set; get; }
     }
 }

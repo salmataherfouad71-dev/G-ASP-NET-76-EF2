@@ -37,5 +37,6 @@ namespace Assignment._17.Models
         {
             get { return $"{Street},{city},{Country},[{PostalCode}]"; }
         }
+        public Badge Badge { get; set; }
     }
 }
