@@ -4,6 +4,7 @@
     {
         static void Main(string[] args)
         {
+            EventHubDbContext context = new EventHubDbContext();
         }
     }
 }
